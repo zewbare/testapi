@@ -7,4 +7,5 @@ api = Api(app)
 
 api.add_resource(Emp, '/emp')
 
-app.run(port = "8055", debug = True)
+if __name__ == '__main__':
+    app.run()
